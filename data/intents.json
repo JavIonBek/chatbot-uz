@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "salom",
+         "patterns": ["Salom", "Assalomu aleykum", "Qalaysiz", "Assalom", "Hayrli kun", "Салом", "Aссалому алейкум", "Aссалом"],
+         "responses": ["Sizga xursandman :) Nima bilan yordam berishim mumkin?", "Assalomu aleykum, web saytimizga xush kelibsiz. Qanday yordam bera olaman?", "Assalomu aleykum, qanday yordam bera olaman?"],
+         "context": [""]
+        },
+        {"tag": "xayr",
+         "patterns": ["Xayr", "Ko'rishguncha", "Sog' bo'ling", "Хайр", "Кўришгунча", "Соғ бўлинг"],
+         "responses": ["Omad tilayman! Yana uchrashishdan xursand bo'laman.", "Sog' bo'ling, ko'rishguncha :)", "Kuningiz yaxshi o'tsin.", "Xayr! Tashrifingizdan xursandmiz."],
+         "context": [""]
+        },
+        {"tag": "rahmat",
+         "patterns": ["Rahmat", "Raxmat", "Kattakon rahmat", "Yordamingiz uchun rahmat", "Раҳмат", "Рахмат", "Каттакон раҳмат", "Ёрдамингиз учун раҳмат"],
+         "responses": ["Men foydali bo`lishga harakat qilyapman.", "Yordam berganimdan xursandman!", "Arzimaydi."],
+         "context": [""]
+        },
+        {"tag": "kim_san",
+         "patterns": ["Kim san?", "Nima san?", "Isming nima?", "Ким сан?", "Нима сан?", "Исминг нима?"],
+         "responses": ["Men ushbu saytning sun'iy aqlga ega operatoriman."],
+         "context": [""]
+        },
+        {"tag": "qonun_buzarlikni_yuklash",
+         "patterns": ["Qanday qilib qonun buzarlik haqida ma'lumot xabar qilsam bo'ladi?", "Saytdan qanday qilib qonun buzarlik haqida ma'lumot yuklasam bo'ladi?", "qonun buzarlik", "Қандай қилиб қонун бузарлик ҳақида маълумот хабар қилсам бўлади?", "Сайтдан қандай қилиб қонун бузарлик ҳақида маълумот юкласам бўлади?", "қонун бузарлик"],
+         "responses": ["Saytning Qonun buzarliklar sahifasiga o'tib, tegishli ma'lumotlarni kiritib, ma'limot yuklashingiz mumkin."],
+         "context": [""]
+        },
+        {"tag": "rezyume_yuborish",
+         "patterns": ["Qanday qilib rezyume yuborsam bo'ladi?", "rezyume yuborish", "Qanday rezyume yuborsam bo'ladi?", "Қандай қилиб резюме юборсам бўлади?", "резюме юбориш", "Қандай резюме юборсам бўлади?"],
+         "responses": ["Saytning Rezyume yuborish sahifasiga o'tib, kerakli ma'lumotlarni kiritish orqali rezyumengizni yuborishingiz mumkin."],
+         "context": [""]
+        }
+   ]
+}
